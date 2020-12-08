@@ -5,27 +5,23 @@
 
     <ScrollView>
         <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Frame BackgroundColor="#FAE62F" Padding="24" CornerRadius="0">
             <Label Text="D.O.C T-Shirt App" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
-        <Button Text="Enter your name" Command="{Binding TestButtonCommand}" />
-        <Entry Placeholder=""/>
+        
+        <Entry Placeholder="Enter your name"/>
 
+        <Entry Placeholder="Enter your Gender"/>
 
-        <Button Text="ENTER YOUR GENDER" Command="{Binding TestButtonCommand}" />
-        <Entry Placeholder=""/>
+        <Entry Placeholder="Enter your T-Shirt Size"/>
 
-        <Button Text="ENTER YOUR T-SHIRT SIZE" Command="{Binding TestButtonCommand}" />
-        <Entry Placeholder=""/>
+        <Entry Placeholder="Enter your T-Shirt Color"/>
 
-        <Button Text="ENTER YOUR T-SHIRT COLOR" Command="{Binding TestButtonCommand}" />
-        <Entry Placeholder=""/>
+        <Entry Placeholder="Enter your Date of order"/>
 
-        <Button Text="ENTER YOUR DATE OF ORDER" Command="{Binding TestButtonCommand}" />
-        <Entry Placeholder=""/>
-
-        <Button Text="ENTER YOUR SHIPPING ADDRESS" Command="{Binding TestButtonCommand}" />
-        <Entry Placeholder=""/>
+        <Entry Placeholder="Enter your Shipping Address"/>
+            
+        <Button Text="Show your list" Command="{Binding TestButtonCommand}" />
 
 
     </StackLayout>
