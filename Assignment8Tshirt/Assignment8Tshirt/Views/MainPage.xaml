@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Assignment8Tshirt.MainPage">
+
+    <ScrollView>
+        <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="D.O.C T-Shirt App" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Button Text="Enter your name" Command="{Binding TestButtonCommand}" />
+        <Entry Placeholder=""/>
+
+
+        <Button Text="ENTER YOUR GENDER" Command="{Binding TestButtonCommand}" />
+        <Entry Placeholder=""/>
+
+        <Button Text="ENTER YOUR T-SHIRT SIZE" Command="{Binding TestButtonCommand}" />
+        <Entry Placeholder=""/>
+
+        <Button Text="ENTER YOUR T-SHIRT COLOR" Command="{Binding TestButtonCommand}" />
+        <Entry Placeholder=""/>
+
+        <Button Text="ENTER YOUR DATE OF ORDER" Command="{Binding TestButtonCommand}" />
+        <Entry Placeholder=""/>
+
+        <Button Text="ENTER YOUR SHIPPING ADDRESS" Command="{Binding TestButtonCommand}" />
+        <Entry Placeholder=""/>
+
+
+    </StackLayout>
+        </ScrollView >
+
+</ContentPage>
